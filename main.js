@@ -9,6 +9,15 @@ function getComputerChoice(){
    }
 }
 
+function getPlayerChoice(){
+    let choice = prompt("Choose Rock, Paper or Scissors?");
+    if (choice.toLowerCase() == 'rock'){
+        return 'Rock'
+    } else if(choice.toLowerCase() == 'paper'){
+        return 'Paper'
+    } else if(choice.toLowerCase() == 'scissors'){
+        return 'Scissors'
+    }
+}
 
-
-
+console.log(getPlayerChoice())
