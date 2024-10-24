@@ -30,6 +30,14 @@ function playRound(humanChoice, computerChoice) {
     return console.log("You Lose");
   } else if (humanChoice == "Scissors" && computerChoice == "Paper") {
     return console.log("You Win");
+  } else if (humanChoice == "Scissors" && computerChoice == "Rock") {
+    return console.log("You Lose");
+  } else if (humanChoice == "Scissors" && computerChoice == "Paper") {
+    return console.log("You Win");
+  } else if (humanChoice == "Paper" && computerChoice == "Rock") {
+    return console.log("You Win");
+  } else if (humanChoice == "Paper" && computerChoice == "Scissors") {
+    return console.log("You Lose");
   } else {
     return console.log("Its a Tie");
   }
